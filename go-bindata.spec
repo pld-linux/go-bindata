@@ -11,6 +11,7 @@ Source0:	https://github.com/jteeuwen/go-bindata/archive/%{commit}/%{name}-%{vers
 # Source0-md5:	d630353abae8c73adf2ed2af3d0e74a0
 URL:		http://github.com/jteeuwen/go-bindata
 BuildRequires:	golang >= 1.3.3
+ExclusiveArch:	%{ix86} %{x8664} %{arm}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # go stuff
